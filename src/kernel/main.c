@@ -23,10 +23,10 @@ void __attribute__((section(".entry"))) start(uint16_t bootDrive)
 
     log_debug("Main", "This is a debug msg!");
     log_info("Main", "This is an info msg!");
-    log_warn("Main", "This is a warnibng msg!");
+    log_warn("Main", "This is a warning msg!");
     log_err("Main", "This is an error msg!");
     log_crit("Main", "This is a critical msg!");
-    printf("Nanobyte OS v0.1\n");
+    printf("GTMOS v0.1\n");
     printf("This operating system is under construction.\n");
     //i686_IRQ_RegisterHandler(0, timer);
 
